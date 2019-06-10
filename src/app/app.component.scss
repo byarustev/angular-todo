@@ -1,0 +1,43 @@
+li{
+  list-style: none;
+}
+
+.out-div{
+  background: #34495e;
+  position: absolute;
+  margin: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  color: white;
+}
+
+.delete{
+  color: gray;
+  background: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  float: right;
+}
+
+ul{
+  margin: 0px auto;
+  width: 400px;
+  li{
+    border-bottom: 1px solid white;
+    padding: 4px;
+    text-align: left;
+  }
+}
+
+input{
+  height: 26px;
+  font-size: 14pt;
+}
+
+input [type='submit']{
+  height: 26px;
+}
